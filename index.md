@@ -1,15 +1,20 @@
 ---
 layout: default
-title: imkhoibui
+title: about
 ---
+### [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html)
 
-## Hi!
+## Hi there!
 
 Welcome to my personal website. My name is Khoi, an aspiring bioinformatician working and living in
-Ho Chi Minh city, Vietnam. I graduated with a BSc in Computer Science in June 2024 at [Fulbright University Vietnam](https://fulbright.edu.vn), the country's first and only (so-far) liberal arts institution.
+Ho Chi Minh city, Vietnam. I graduated with a BSc in Computer Science in June 2024 at **[Fulbright University Vietnam](https://fulbright.edu.vn)**, the country's first and only (so-far) liberal arts institution.
+
+My journey started with me transitioning to another university at 20, in hope of pursuing a career in social science. As an attempt to try out a completely new field, I took the **Introduction to Biology** course out of curiosity and was motivated by the lecturer's enthusiasm. In my 2nd and 3rd year, I picked up CS courses at Fulbright and in my 4th year, came back to studying Biology with *Human Genetics* and *Human Physiology*.
+
+My interests involves **spatial-omics**, developing **bioinformatics pipelines** and employing various **ML/AI responsible practices** to study the human genomics.
 
 This website is probably going to be updated infrequently, but I hope it can be used as a place to record my
-career and life experiences. I hope you'd stick around and share your inputs, as well as contacting me for any possible collaboration.
+career and life experiences. Feel free to stick around and share your inputs, as well as contacting me for any possible collaboration.
 
 ----------
 ## My past-lives:
