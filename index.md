@@ -2,7 +2,7 @@
 layout: default
 title: about
 ---
-### [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html)
+### [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) | [reviews](/reviews.html)
 
 ## Hi there!
 
@@ -17,7 +17,7 @@ This website is probably going to be updated infrequently, but I hope it can be 
 career and life experiences. Feel free to stick around and share your inputs, as well as contacting me for any possible collaboration.
 
 ----------
-## My past-lives:
+## Milestones:
 * **Jan 2025:** Started a new job as a Bioinformatics Technician at [Pacific Informatics](https://pacificinformatics.com.vn), Vietnam.
 * **Nov 2024:** Presented my poster for *Responsible AI in Genomics Research* at the Genome Informatics conference in Hinxton, UK.
 * **Oct 2024:** Presented my poster for *Responsible AI in Genomics Research* at the Explainable AI and Biology conference online.
