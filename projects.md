@@ -4,7 +4,7 @@ title: projects
 permalink: /projects
 ---
 
-### [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) | [reviews](/reviews.html)
+### [home](/) | [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html)
 
 # my (on-going) projects
 

@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Maybe, just maybe, I am not so late"
+date: 2025-09-13 16:20:00 +0700
+categories: [jekyll, github-actions]
+tags: [jekyll, deployment, ci-cd]
+---
+
+## Maybe, just maybe, I am not so late
+
+### A Facebook group chat and its potential for stirring jealousy
+
+I have a close friend's group chat on Facebook, we have been friends since my undergrad, and have remained active in this group since our graduation (June 2024). There are six of us, in which four has or will be, pursuing higher education abroad, one other friend who has moved back to her hometown to settle, and me.
+
+In many places, or at least, in my family, there are milestones to achieve in certain ages to be deemed "successful". For example, if you haven't gotten a stable job by 22 after your undergraduate graduation, you are kinda "late". If you haven't been promoted to a leadership position by 27, you are kinda late. Being in the 30s and haven't gotten married? Congratulations, your parents will whine about how your childhood friends have beared 2 kids and they haven't even held their first grandchild. In essence, I think it's quite adorable and quite caring of my father to ask those questions. His worries are clumsy in form, but they come from love. But I can't help but feeling like I'm falling behind, comparing to my peers who have been working for 3 years, about to get marry, traveling the Southeast Asia, I started university in 2020 when I was 20, started working at my first job this year, and is nowhere near to traveling the globe.
+
+Normally, I brush these feelings aside, focus on my hobbies and myself and try to work towards the next goal. But today, hearing that my friends who are planning for a trip in the US during winter break of their studies, I can't help but having this comparison again. "Am I falling behind?". I should be there in the US, with them, waiting and planning for the next trip, my father while worries, will be glad that I'm pursuing the next step in my life instead of staying here in my job that pays minimally. 
+
+<p align="center">
+  <img src="/assets/img/late_1.avif" alt="" description="late_1" width="500"/>
+</p>
+
+### But am I truly, behind?
+
+Well the truth is, I applied, with my friends, I had hoped for a higher education opportunity, but I didn't get the funding needed. In retrospect, a lot of my "big" moments in life happened because I missed that first shot, which eventually redirected me to the bigger picture:
+
+- In 2018, I got in one of the best technical university in Vietnam, but I dropped out after 1 year because I didn't think that studying Computer Science was the right thing for me. I wanted to help people, not sitting in the office desks all days fixing code. The irony is, that's what I'm doing right now in my job, the difference is, my job is a small step in biological research, where it could potentially help people.
+
+- In 2020, I applied to my undergraduate university, and got waitlisted. My friend got in, I was elated for them but was deeply disappointed in myself. Turns out, it was a much needed break to polish my additional application for the Spring Cycle admission where I constantly contemplated what is it of Fulbright that I wanted to pursue and managed to get in (which I did for that admission cycle, hooray!)
+
+- Just last year, I failed multiple web developing positions, but ended up with a job at a bioinformatics company. Even though the experience working there wasn't as pleasant as I had wished, I learned a lot, and those experiences introduced me to my current job, where I was able to use a lot of my previous knowledge to contribute.
+
+During the midst of news from my friends, which I couldn't be happier for, I find it easy to be sad about my fate, about my career, my own journey. Will I ever be as successful as I wish to be? Maybe all that's needed is a lesson in patience, as every failure, every loss, every rejection in my journey, thus far, has given me more contemplation than the achievements could ever have. Even though it's clicle to say, I want to admit that yes, averagely, I am falling behind the people in my friend circle. But perhaps I am not late at all. I am simply arriving at a different time, with a different story. And maybe, just maybe, that will make all the difference. So I want to tell myself to be patient, reflect constantly, be grateful for the opportunties and create them for yourself.
+
+Here to a good birthday month!
+Yours truly,
+Khoi.

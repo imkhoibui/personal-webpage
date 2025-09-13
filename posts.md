@@ -4,7 +4,7 @@ title: posts
 permalink: /posts
 ---
 
-### [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) | [reviews](/reviews.html)
+### [home](/) | [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) 
 
 # posts
 
@@ -14,7 +14,6 @@ permalink: /posts
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>

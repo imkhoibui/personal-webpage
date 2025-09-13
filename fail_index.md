@@ -19,13 +19,12 @@ career and life experiences. Feel free to stick around and share your inputs, as
 ----------
 ## Milestones:
 
-These are the experiences that shaped my career, of course, I have learned more from the times I failed that when I succeeded. If you are curious about those, click [here](/fail_index.html).
+These are the experiences that shaped my career, of course, I have learned more from the times I failed that when I succeeded. Here are my (not-yet) successful attempts. In hindsights, they gave me a lot of reflections and I'm happy to move forward from them eventually!
 
-* **Sep 2025:** Joining St Jude's BioHackathon to work on deploying 
-* **Mar 2025:** Joined nf-core's Hackathon, working on `scxa-teriary-workflow` from EMBL-EBI, in charge of modularizing workflows, ensuring inputs & outputs for workflows.
-* **Jan 2025:** Started a new job as a Bioinformatics Technician at [Pacific Informatics](https://pacificinformatics.com.vn), Vietnam.
-* **Nov 2024:** Presented my poster for *Responsible AI in Genomics Research* at the Genome Informatics conference in Hinxton, UK.
-* **Oct 2024:** Presented my poster for *Responsible AI in Genomics Research* at the Explainable AI and Biology conference online.
-* **Jun 2024:** Started working as a Bioinformatician at [BioTuring](https://bioturing.com), Vietnam.
-* **Jun 2024:** Graduated from Fulbright University Vietnam, 3.7/4.0 GPA.
-* **May 2024:** Became a mentee for the [BioDev's Network's Future Innovator Mentorship Program](https://www.sanger.ac.uk/about/study/biodev-network-future-innovators-mentorships/).
+* **May 2025:** Failed to secure funding for my masters program, ended up rejecting the offers.
+* **Feb 2025:** Got rejected from 2/4 masters programs I applied for.
+* **Nov 2024:** Got rejected for job positions to work as research assistants.
+* **Jun 2024:** Started working as a Bioinformatician at [BioTuring](https://bioturing.com), Vietnam. But I didn't make it through my probation period after 2 months.
+* **Early 2024:** I sought for opportunities to work in various positions, and got rejected to all, from web developer, data analysts, machine learning interns, front-end programmer, UX/UI research.
+* **2021-2023:** Failed all my internship applications.
+* **Jun 2020:** Got waitlisted to Fulbright University Vietnam, where I ended up going.
