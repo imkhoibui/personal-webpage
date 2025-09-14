@@ -7,3 +7,5 @@ github: imkhoibui
 github.logo: /assets/img/github_logo.png
 cv_show: true
 cv: /files/resume.pdf
+
+baseurl: "/personal-webpage"
