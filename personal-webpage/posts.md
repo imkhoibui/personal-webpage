@@ -1,10 +1,9 @@
 ---
 layout: section
 title: posts
-permalink: /posts
----
 
-### [home](/) | [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) 
+permalink: /posts/
+---
 
 # posts
 

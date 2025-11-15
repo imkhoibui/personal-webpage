@@ -1,12 +1,17 @@
 ---
 layout: section
 title: projects
-permalink: /projects
+
+permalink: /projects/
 ---
 
-### [home](/) | [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html)
-
 # my (on-going) projects
+
+## Detection of viral reads in human unmapped RNA-seq data
+
+**Description:** Human RNAseq data contains useful information, but most of them are discarded after aligning to human reference. To investigate viral gene expression in human infectious diseases, metatranscriptomics data are normally used, but we hypothesized that the use of human RNAseq's unmapped can be used as an exploratory method to study viral infections.
+
+**Tools:** Nextflow, Python, R, nf-core/viralrecon.
 
 ## CO-SPATIAL pipeline
 

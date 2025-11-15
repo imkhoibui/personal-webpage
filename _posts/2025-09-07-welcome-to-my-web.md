@@ -10,4 +10,4 @@ tags: [jekyll, deployment, ci-cd]
 
 Working in science research where breaking news, information, funding cuts (?!) are bombarded in everyday life can be a little bit overwhelming. Sometimes, I feel the urge to retreat myself into a safe haven, I guess this is it. 
 
-I am going to update this regularly, but I hope this serves as a place where I freely share my thoughts, ideas. Who's going to be the audience - well if you visit this page then I guess it's you but it's mostly built for me, hoping to revisit every now and then to reflect on how I have developed as a person.
+I am going to update this irregularly, but I hope this serves as a place where I freely share my thoughts, ideas. Who's going to be the audience? - well if you visit this page then I guess it's you but it's mostly built for me, hoping to revisit every now and then to reflect on how I have developed as a person.

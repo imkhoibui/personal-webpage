@@ -5,7 +5,10 @@ theme: jekyll-theme-minimal
 
 github: imkhoibui
 github.logo: /assets/img/github_logo.png
-cv_show: true
+cv_show: false
 cv: /files/resume.pdf
 
-baseurl: "/personal-webpage"
+baseurl: ""
+
+collections:
+  posts:

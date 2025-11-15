@@ -1,15 +1,16 @@
 ---
 layout: default
 title: about
+
+permalink: "/"
 ---
-### [home](/) | [projects](/projects.html) | [resources](/resources.html) | [posts](/posts.html) 
 
 ## Hi there!
 
 Welcome to my personal website. My name is Khoi, an aspiring bioinformatician working and living in
 Ho Chi Minh city, Vietnam. I graduated with a BSc in Computer Science in June 2024 at **[Fulbright University Vietnam](https://fulbright.edu.vn)**, the country's first and only (so-far) liberal arts institution.
 
-My journey started with me transitioning to another university at 20, in hope of pursuing a career in social science. As an attempt to try out a completely new field, I took the **Introduction to Biology** course out of curiosity and was motivated by the lecturer's enthusiasm. In my 2nd and 3rd year, I picked up CS courses at Fulbright and in my 4th year, came back to studying Biology with *Human Genetics* and *Human Physiology*.
+My journey started with me going to university in hope of pursuing a career in social science. As an attempt to try out a completely new field, I took the **Introduction to Biology** course out of curiosity and was motivated by the lecturer's enthusiasm. In my 2nd and 3rd year, I picked up CS courses at Fulbright and in my 4th year, came back to studying Biology with *Human Genetics* and *Human Physiology*.
 
 My interests involves **human genetics**, developing **bioinformatics pipelines** and employing various **ML/AI responsible practices** to study the human genomics.
 
@@ -19,7 +20,7 @@ career and life experiences. Feel free to stick around and share your inputs, as
 ----------
 ## Milestones:
 
-These are the experiences that shaped my career, of course, I have learned more from the times I failed that when I succeeded. If you are curious about those, click [here](/fail_index.html).
+These are the experiences that shaped my career, of course, I have learned more from the times I failed that when I succeeded.
 
 * **Sep 2025:** Joining St Jude's BioHackathon to work on deploying 
 * **Mar 2025:** Joined nf-core's Hackathon, working on `scxa-teriary-workflow` from EMBL-EBI, in charge of modularizing workflows, ensuring inputs & outputs for workflows.
