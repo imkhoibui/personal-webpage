@@ -1,5 +1,6 @@
 title: Khoi Bui Dinh
 logo: /assets/img/self.jpeg
+alt_logo: /assets/img/image_placeholder.jpg
 description: bioinformatics | genomics research
 theme: jekyll-theme-minimal
 
@@ -11,4 +12,5 @@ cv: /files/resume.pdf
 baseurl: ""
 
 collections:
-  posts:
+  projects:
+    output: true
