@@ -9,7 +9,7 @@ github.logo: /assets/img/github_logo.png
 cv_show: false
 cv: /files/resume.pdf
 
-baseurl: ""
+baseurl: "/personal-webpage"
 
 collections:
   projects:
