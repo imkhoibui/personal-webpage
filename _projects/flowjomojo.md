@@ -5,4 +5,5 @@ title: Flowjomojo - React-Flow webapp to construct modules drag and drop for pip
 preview: "Placeholder for project title"
 skills: Nextflow, sra-toolkits
 thumbnail: /assets/img/image_placeholder.jpg
+tools: [ReactFlow, TypeScript]
 ---

@@ -5,4 +5,5 @@ title: BioFetch - A Nextflow pipeline to parallely retrieve sequencing data from
 preview: "Placeholder for project title"
 skills: Nextflow, sra-toolkits
 thumbnail: /assets/img/image_placeholder.jpg
+tools: [nextflow, sra-toolkits]
 ---

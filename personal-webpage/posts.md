@@ -11,10 +11,10 @@ permalink: /posts/
 
 <div class="all-posts">
   {% for post in site.posts %}
-    <div class="post-thumbnail">
+    <a class="post-thumbnail" href="{{ post.url | relative_url }}">
       <img class="thumbnail-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}"/>
       <div class="thumbnail-description">
-        <a href="{{ post.url }}" class="thumbnail-title">{{ post.title }}</a>
+        <p class="thumbnail-title">{{ post.title }}</p>
         <div class="thumbnail-preview">{{ post.preview }}</div>
         <div class="thumbnail-date">{{ post.date | date_to_string: "ordinal", "US"  }}</div>
         <div style="display: flex; flex-direction: row;">
@@ -23,6 +23,6 @@ permalink: /posts/
           {% endfor %}
         </div>
       </div>
-    </div>
+    </a>
   {% endfor %}
 </div>
