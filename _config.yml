@@ -1,11 +1,10 @@
 title: Khoi Bui Dinh
 logo: /assets/img/self.jpeg
-alt_logo: /assets/img/image_placeholder.jpg
-description: bioinformatics | genomics research
+alt_logo: /assets/img/bioinformatics.png
 theme: jekyll-theme-minimal
 
 github: imkhoibui
-github.logo: /assets/img/github_logo.png
+github.logo: /assets/icon/github_logo.png
 cv_show: false
 cv: /files/resume.pdf
 
@@ -13,4 +12,4 @@ baseurl: "/personal-webpage"
 
 collections:
   projects:
-    output: true
+    output: false

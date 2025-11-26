@@ -10,6 +10,38 @@
     margin: 0px 0px 40px;
     outline: 2.5px solid #6BAED8;
     outline-offset: 5px;
+    transition: transform 0.2s ease;
+    backface-visibility: hidden;
+}
+
+.flip-home {
+    animation: flipIn 0.2s ease forwards;
+}
+
+.flip-inner {
+    animation: flipInReverse 0.2s ease forwards;
+}
+
+@keyframes flipIn {
+    from {
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+  
+@keyframes flipInReverse {
+    from {
+        transform: rotateY(-180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
 }
 
 .all-posts {
@@ -50,16 +82,18 @@
 
 .all-projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
 }  
 
 .project-thumbnail {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
+    max-width: 100%;
+    gap: 10px;
 }
 
 .thumbnail-title {
@@ -91,6 +125,12 @@
     margin-right: auto;
     max-width: 560px;
     border-radius: 0%;
-    outline: 1px solid black;
-    outline-offset: 5px;
+    // outline: 1px solid black;
+    // outline-offset: 5px;
+    margin: 20px;
+}
+
+.icon-logo {
+    max-width: 20px;
+    margin: 10px;
 }

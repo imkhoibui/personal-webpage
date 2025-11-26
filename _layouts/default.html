@@ -13,10 +13,10 @@
     <div class="wrapper">
       <header>
         {% if page.url == '/' %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" class="avatar"/>
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="avatar flip-home"/>
         {% endif %}
         {% if page.url != '/' %}
-          <img src="{{site.alt_logo | relative_url}}" alt="Alt_Logo" class="avatar"/>
+          <img src="{{site.alt_logo | relative_url}}" alt="Alt_Logo" class="avatar flip-inner"/>
         {% endif %}
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
@@ -30,15 +30,16 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        <p class="view">
-          <a href="">
-            <img> Gmail
+        <p class="view" style="display: flex; flex-direction: row; justify-content: center;">
+          <a href="mailto:khoibui.personal@gmail.com">
+            <img class="icon-logo" src="/personal-webpage/assets/icons/gmail.svg" alt="gmail-logo"/> 
+
           </a>
           <a href="https://github.com/imkhoibui">
-            <img> Github
+            <img class="icon-logo" src="/personal-webpage/assets/icons/github.svg" alt="github-logo"/> 
           </a>
           <a href="https://www.linkedin.com/in/kbuidinh/">
-            <img> LinkedIn
+            <img class="icon-logo" src="/personal-webpage/assets/icons/linkedin.svg" alt="linkedin-logo"/> 
           </a>
         </p>
 
