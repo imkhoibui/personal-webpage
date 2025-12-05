@@ -16,6 +16,6 @@ expression matrix as features for model training, and found that viral reads can
 used for classification tasks.
 "
 skills: Nextflow, sra-toolkits
-thumbnail: [/assets/img/viral.svg,/assets/img/viral_2.png]
+thumbnail: [/assets/img/projects/viral.svg,/assets/img/projects/viral_2.png]
 tools: [nextflow, nf-core, R]
 ---

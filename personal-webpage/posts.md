@@ -12,11 +12,13 @@ permalink: /posts/
 <div class="all-posts">
   {% for post in site.posts %}
     <a class="post-thumbnail" href="{{ post.url | relative_url }}">
-      <img class="thumbnail-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}"/>
+      <div class="img-container">
+        <img class="thumbnail-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}"/>
+      </div>
       <div class="thumbnail-description">
+        <div class="thumbnail-date">{{ post.date | date_to_string: "ordinal", "US"  }}</div>
         <p class="thumbnail-title">{{ post.title }}</p>
         <div class="thumbnail-preview">{{ post.preview }}</div>
-        <div class="thumbnail-date">{{ post.date | date_to_string: "ordinal", "US"  }}</div>
         <div style="display: flex; flex-direction: row;">
           {% for category in post.categories %}
             <div class="thumbnail-categories">{{ category }} </div>

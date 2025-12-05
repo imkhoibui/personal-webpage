@@ -15,7 +15,6 @@ permalink: /projects/
         {% endfor%}
       </div>
       <div class="thumbnail-description-project">
-        <!-- <a href="{{ project.url | relative_url }}" class="thumbnail-title">{{ project.title }}</a> -->
         <p class="thumbnail-title">{{ project.title }}</p>
         <div style="display: flex; flex-direction: row; align-items: center">
           <strong style="padding-right: 10px">Tools:</strong>

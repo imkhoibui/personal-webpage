@@ -6,7 +6,7 @@ overview: "Artificial intelligence (AI) has become a crucial tool in genomics re
 This study highlights the need for responsible and FAIR practices in AI model development for genomics. We recommend focusing on Interoperability to enhance the usability of models across different settings, ensuring reproducibility through containerization, and facilitating future enhancements by maintaining accessible code repositories. By adopting these practices, the AI model authors will be able to replicate and extend the impacts of their AI models.
 "
 skills: Nextflow, sra-toolkits
-thumbnail: /assets/img/xai.svg
+thumbnail: /assets/img/projects/xai.svg
 tools: [shap, lime, pytorch]
 ---
 
