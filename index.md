@@ -19,13 +19,26 @@ career and life experiences. Feel free to stick around and share your inputs, as
 ----------
 ## Milestones:
 
-These are the experiences that shaped my career, of course, I have learned more from the times I failed that when I succeeded.
+<p>
+These are the experiences that shaped my career, of course, I have learned more 
+from the times I <button id="show-hidden" class="button-textlook">failed</button> 
+than when I succeeded.
+</p>
 
-* **Sep - 25:** Joined St Jude's BioHackathon to work on [flowjomojo](https://github.com/stjude-biohackathon/KIDS25-Team8_flowjomojo), a tool for Drag-and-Drop Nextflow pipeline construction.
-* **Mar - 25:** Joined nf-core's Hackathon, working on [scxa-teriary-workflow](https://github.com/ebi-gene-expression-group/scxa-tertiary-workflow) from EMBL-EBI, in charge of modularizing workflows, ensuring inputs & outputs for workflows.
-* **Jan - 25:** Started a job as a Bioinformatics Technician at [Pacific Informatics](https://pacificinformatics.com.vn), Vietnam.
-* **Nov - 24:** Presented my poster for *Responsible AI in Genomics Research* at the Genome Informatics conference in Hinxton, UK.
-* **Oct - 24:** Presented my poster for *Responsible AI in Genomics Research* at the Explainable AI and Biology conference online.
-* **Jun - 24:** Started working as a Bioinformatician at [BioTuring](https://bioturing.com), Vietnam.
-* **Jun - 24:** Graduated from Fulbright University Vietnam, major in Computer Science.
-* **May - 24:** Became a mentee for the [BioDev's Network's Future Innovator Mentorship Program](https://www.sanger.ac.uk/about/study/biodev-network-future-innovators-mentorships/).
+<div class="timeline">
+  {% for milestone in site.data.milestones %}
+    <div class="milestone" 
+         data-hidden="{{ milestone.hidden | default: false }}">
+      {% if milestone.hidden == false %}
+        <strong>{{ milestone.date }}</strong>: {{ milestone.description }}
+      {% endif %}
+      {% if milestone.hidden == true %}
+        <div class="hidden-content" style="color: gray" hidden>
+          <strong style="color: gray">{{ milestone.date }}</strong>: {{ milestone.description }}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/timelines.js' | relative_url }}"></script>

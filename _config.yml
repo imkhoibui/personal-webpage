@@ -13,3 +13,5 @@ baseurl: "/personal-webpage"
 collections:
   projects:
     output: false
+
+show_default_milestones: true

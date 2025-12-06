@@ -1,0 +1,62 @@
+# _data/milestones.yml
+- date: "2025-Nov"
+  description: "A professor at UBC accepted me with funding for a masters program, but UBC rejected my application because the institution where I obtained my BSc is not part of their eligible database."
+  hidden: true
+
+- date: "2025-Sep"
+  description: "Joined St Jude's BioHackathon to work on flowjomojo, a Drag-and-Drop Nextflow pipeline construction tool."
+  link: "https://github.com/stjude-biohackathon/KIDS25-Team8_flowjomojo"
+  hidden: false
+
+- date: "2025-May"
+  description: "Got accepted to UMich Ann Arbor for MSc in Bioinformatics but couldn't go because there's no funding."
+  hidden: true
+
+- date: "2025-Mar"
+  description: "Worked on scxa-tertiary-workflow from EMBL-EBI; modularizing workflows and ensuring inputs & outputs."
+  link: "https://github.com/ebi-gene-expression-group/scxa-tertiary-workflow"
+  hidden: false
+
+- date: "2025-Jan"
+  description: "Started a job as a Bioinformatics Technician at Pacific Informatics."
+  link: "https://pacificinformatics.com.vn"
+  hidden: false
+
+- date: "2024-Nov"
+  description: "Presented my poster on Responsible AI in Genomics Research at Genome Informatics (Hinxton, UK)."
+  hidden: false
+
+- date: "2024-Oct"
+  description: "Presented Responsible AI in Genomics Research at Explainable AI and Biology (online)."
+  hidden: false
+
+- date: "2024-Oct"
+  description: "Got rejected for conference visa to the UK."
+  hidden: true
+
+- date: "2024-Jun"
+  description: "Started working as a Bioinformatician at BioTuring."
+  link: "https://bioturing.com"
+  hidden: false
+
+- date: "2024-Jun"
+  description: "Graduated from Fulbright University Vietnam, major in Computer Science."
+  hidden: false
+
+- date: "2024-May"
+  description: "Got rejected to BioTuring's position initially because I couldn't pass the interview."
+  link: "https://bioturing.com"
+  hidden: true
+
+- date: "2024-May"
+  description: "Became a mentee for the BioDev's Network's Future Innovator Mentorship Program."
+  link: "https://www.sanger.ac.uk/about/study/biodev-network-future-innovators-mentorships/"
+  hidden: false
+
+- date: "2024-Feb"
+  description: "I applied to multiple positions, from webdev to UX/UI to data analysts... but I would receive no reply."
+  hidden: true
+
+- date: "2023-Jun"
+  description: "Told by a professor that pursuing bioinformatics is tough in Vietnam; later realized opportunities can make a difference."
+  hidden: true
