@@ -11,6 +11,6 @@ Available sources for retrieval:<br>
 Biofetch outputs a samplesheet ready for running your next pipeline.
 "
 skills: Nextflow, sra-toolkits
-thumbnail: /assets/img/image_placeholder.svg
+thumbnail: /assets/img/projects/biofetch_flow.png
 tools: [nextflow, sra-toolkits]
 ---

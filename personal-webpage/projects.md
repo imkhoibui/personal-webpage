@@ -7,7 +7,7 @@ permalink: /projects/
 # Past and on-going projects
 
 <div class="all-projects">
-  {% for project in site.projects %}
+  {% for project in site.projects reversed %}
     <div class="project-thumbnail">
       <div style="display: flex; flex-direction: column; max-width: 40%">
         {% for image in project.thumbnail %}
