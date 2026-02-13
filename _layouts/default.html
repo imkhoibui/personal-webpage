@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <img src="{{site.logo | relative_url}}" alt="Logo" class="avatar flip-home"/>
+        <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -28,21 +28,29 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        <p class="view">
-          <a>
-            <img> Gmail
+        <p class="view" style="display: flex; flex-direction: row; justify-content: center;">
+          <a href="mailto:khoibui.personal@gmail.com">
+            <img class="icon-logo" src="/personal-webpage/assets/icons/gmail.svg" alt="gmail-logo"/> 
+
           </a>
           <a href="https://github.com/imkhoibui">
-            <img> Github
+            <img class="icon-logo" src="/personal-webpage/assets/icons/github.svg" alt="github-logo"/> 
           </a>
           <a href="https://www.linkedin.com/in/kbuidinh/">
-            <img> LinkedIn
+            <img class="icon-logo" src="/personal-webpage/assets/icons/linkedin.svg" alt="linkedin-logo"/> 
           </a>
         </p>
 
         {% if site.cv_show %}
-        <p class="view"><a href="{{ site.cv }}">CV</a></p>
+          <p class="view"><a href="{{ site.cv }}">CV</a></p>
         {% endif %}
+
+        <div>
+          <a href="{{ '/' | relative_url}}">Home | </a>
+          <a href="{{ '/projects' | relative_url }}">Projects | </a>
+          <a href="{{ '/resources' | relative_url }}">Resources | </a>
+          <a href="{{ '/posts' | relative_url }}">Posts</a>
+        </div>
 
       </header>
       <section>
@@ -51,6 +59,6 @@
 
       </section>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>

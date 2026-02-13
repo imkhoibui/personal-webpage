@@ -1,4 +1,189 @@
 ---
 ---
+@use "jekyll-theme-minimal";
 
-@import "jekyll-theme-minimal";
+.blog-post {
+    width: 100%;
+}
+
+.avatar {
+    margin: 0px 0px 40px;
+    outline: 2.5px solid #6BAED8;
+    outline-offset: 5px;
+    transition: transform 0.2s ease;
+    backface-visibility: hidden;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+.flip-home {
+    animation: flipIn 0.2s ease forwards;
+}
+
+.flip-inner {
+    animation: flipInReverse 0.2s ease forwards;
+}
+
+@keyframes flipIn {
+    from {
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+  
+@keyframes flipInReverse {
+    from {
+        transform: rotateY(-180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+
+.all-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.post-thumbnail {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.thumbnail-description {
+    width: 80%;
+}
+
+.img-container {
+  aspect-ratio: 1 / 1;
+  width: 80%;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.thumbnail-categories {
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2.5px 10px;
+    margin: 5px 5px 5px 0;
+}
+
+.all-projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}  
+
+.img-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.project-thumbnail {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: flex-start;
+    padding: 10px;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.thumbnail-title {
+    margin-top: 10px;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.thumbnail-date {
+    font-weight: 400; 
+    font-size: 12px;
+    color: gray; 
+    font-style: italic;
+}
+
+.thumbnail-preview {
+    font-weight: 400; 
+    font-size: 16px;
+    color: black;
+    margin-bottom: 8px; 
+}
+
+.thumbnail-img-project {
+    border-radius: 0;
+    max-width: 100%;
+}
+
+.thumbnail-description-project {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.resource-topic {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-center {
+    display: block;
+    margin: 20px auto;
+    max-width: 560px;
+    border-radius: 0%;
+}
+
+.post-img {
+    width: 400px;       
+    height: 400px;     
+    object-fit: cover; 
+    display: block;
+    margin: 20px auto;
+}
+
+
+.post-center-medium{
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 0%;
+}
+
+.icon-logo {
+    max-width: 20px;
+    margin: 10px;
+}
+
+.button-textlook{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 600;
+    padding: 0;
+    color: black;
+    cursor: pointer;
+}
+
+.button-textlook:hover {
+    text-decoration: underline;
+}
