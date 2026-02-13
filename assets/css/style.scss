@@ -92,6 +92,12 @@
     justify-items: center;
 }  
 
+.img-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
 .project-thumbnail {
     display: flex;
     flex-direction: row;
@@ -145,6 +151,15 @@
     max-width: 560px;
     border-radius: 0%;
 }
+
+.post-img {
+    width: 400px;       
+    height: 400px;     
+    object-fit: cover; 
+    display: block;
+    margin: 20px auto;
+}
+
 
 .post-center-medium{
     display: block;
